@@ -6,9 +6,9 @@ namespace JsonHomework
 {
     class Request
     {
-        public string type { get; set; }
-        public string query { get; set; }
-        public string language { get; set; }
-        public string unit { get; set; }
+        public string Type { get; set; }
+        public string Query { get; set; }
+        public string Language { get; set; }
+        public string Unit { get; set; }
     }
 }
