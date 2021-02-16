@@ -6,22 +6,22 @@ namespace JsonHomework
 {
     class Current
     {
-        public DateTime observationTime { get; set; }
-        public int temperature { get; set; }
-        public int weatherCode { get; set; }
-        public string weatherIcons { get; set; }
-        public string weatherDescriptions { get; set; }
-        public int windSpeed { get; set; }
-        public int windDegree { get; set; }
-        public string windDirection { get; set; }
-        public int pressure { get; set; }
-        public int precip { get; set; }
-        public int humidity { get; set; }
-        public int cloudCover { get; set; }
-        public int feelsLike { get; set; }
+        public DateTime ObservationTime { get; set; }
+        public int Temperature { get; set; }
+        public int WeatherCode { get; set; }
+        public string WeatherIcons { get; set; }
+        public string WeatherDescriptions { get; set; }
+        public int WindSpeed { get; set; }
+        public int WindDegree { get; set; }
+        public string WindDirection { get; set; }
+        public int Pressure { get; set; }
+        public int Precip { get; set; }
+        public int Humidity { get; set; }
+        public int CloudCover { get; set; }
+        public int FeelsLike { get; set; }
         public int UVIndex { get; set; }
-        public int visibility { get; set; }
-        public bool isDay { get; set; }
+        public int Visibility { get; set; }
+        public bool IsDay { get; set; }
        
     }
 }
